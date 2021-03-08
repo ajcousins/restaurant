@@ -1,0 +1,26 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "odinproject practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ilovelamp1024/restaurant.git"
+  },
+  "keywords": [
+    "retaurant"
+  ],
+  "author": "Alvin Cousins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilovelamp1024/restaurant/issues"
+  },
+  "homepage": "https://github.com/ilovelamp1024/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  }
+}

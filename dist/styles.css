@@ -1,0 +1,122 @@
+body {
+    margin: 20px 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+table {
+    margin:auto;
+}
+
+.tabContainer {
+    display: flex;
+}
+
+.tab {
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px 5px 0px 0px;
+    border-width: 1px;
+}
+
+.logo {
+    display: block;
+    align-self: center;
+    margin: auto;
+    width: 250px;
+}
+
+.tabActive {
+
+    border-style: solid solid none solid;
+    cursor: pointer;
+    
+
+}
+
+.tabBack {
+
+    border-style: solid solid solid solid;
+    border-color: #c7c7c7 #c7c7c7 #000000 #c7c7c7;
+    color: #6d6d6d;
+    cursor: pointer;
+}
+
+.tabBlank {
+
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    
+    border-style: none none solid none;
+    border-width: 1px;
+}
+
+
+.imageHero {
+    
+    background-image: url(../../static/st-john-at-home-feast-st-john-773025.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+ 
+}
+
+.menuList {
+    display: block;
+    margin: auto;
+    width: 60%;
+    align-content: center;
+    
+}
+
+
+
+.rightAlign {
+    text-align: right;
+    width: auto;
+}
+
+.blankRow {
+    height: 20px;
+}
+
+.contactContainer {
+
+    text-align: center;
+}
+
+.details {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer {
+    border-top: 1px solid #aaaaaa;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footerContent {
+    margin: 5px;
+    color: #6d6d6d;
+}

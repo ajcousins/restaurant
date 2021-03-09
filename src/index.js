@@ -22,7 +22,7 @@ function createNavigation() {
     const heading = document.createElement("object");
     heading.classList.add("logo");
     heading.setAttribute("type", "image/svg+xml");
-    heading.setAttribute("data", "/dist/images/logo.svg");
+    heading.setAttribute("data", "images/logo.svg");
     nav.appendChild(heading);
 
     const tabContainer = document.createElement("div");
